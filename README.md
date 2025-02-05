@@ -1,5 +1,4 @@
-Collection of lightweight text pparenthesesools, geared towards text from social networks, such as Twitter or Facebook.
-The tool performs tokenization, word normalization, word segmentation (for splitting hashtags) and spell correction, 
+Collection of lightweight text tools, geared towards text from social networks, such as Twitter or Facebook, for tokenization, word normalization, word segmentation (for splitting hashtags) and spell correction, 
 using word statistics from 2 big corpora (english Wikipedia, twitter - 330mil english tweets).
 
 _ekphrasis_ was developed as part of the text processing pipeline for
@@ -22,14 +21,18 @@ Citation:
 }
 ```
 
-Note: 
-More examples will be coming soon...
+**Disclaimer:** The library is no longer actively developed. I will try to resolve important issues, but I can't make any promises.
 
 # Installation
-```
-pip install ekphrasis
-```
 
+build from source 
+```
+pip install git+git://github.com/cbaziotis/ekphrasis.git
+```
+or install from pypi
+```
+pip install ekphrasis -U
+```
 
 # Overview
 
